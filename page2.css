@@ -1,0 +1,75 @@
+
+/* Quick links */
+
+.qimage img{
+  width: 90%;
+  margin: 10%;
+  transition: transform .8s ease-in-out;
+}
+
+.qimage:hover{
+  transform: scale(1.1);
+}
+
+.p1{
+  text-align: justify;
+}
+/* Quick Links end */
+
+
+/* Activities Section */
+
+#activities, #mythbusters{
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	vertical-align: baseline;
+	text-decoration: none;
+	color: #6c6c6c;
+}
+
+.Activitie{
+  margin-left: 10%;
+  width:90%;
+}
+
+.Activity img{
+  width: 360px;
+  padding: 15px;
+  padding-top: 0px;
+  padding-bottom: 25px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.Activity:hover {
+  transform: scale(1.05);
+  
+}
+
+/* Activities Section end */
+
+/* Myths Section */
+
+.Myth img{
+  width: 280px;
+}
+
+.Myth {
+  float: left;
+  width: 40%;
+  padding: 15px 35px 0 0;
+  transition: transform .8s ease-in-out;
+  margin-left:13%;
+}
+
+.Myth:hover{
+  transform: scale(1.03);
+}
+
+.content::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Myths Section end */
